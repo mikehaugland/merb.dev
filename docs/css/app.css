@@ -38,8 +38,8 @@ body {
   background-repeat: no-repeat;
   background-size: 1400%;
   /*background-image: linear-gradient(230deg,#0cebeb,#20e3b2,#29ffc6);*/
-  background-image: linear-gradient(230deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #dd00f3, #dd00f3);
-  animation: animatedBG 30s linear infinite;
+  background-image: linear-gradient(230deg, #ff4e50, #e8b71d, #f9d423, #add100, #00d3ff, #7474bf, #d53369,#ff5858);
+  animation: animatedBG 60s linear infinite;
 
 
   -webkit-background-clip: text;
@@ -49,7 +49,7 @@ body {
 .name::before {
   background-repeat: no-repeat;
   background-size: 1400%;
-  animation: animatedBG 30s linear infinite;
+  animation: animatedBG 60s linear infinite;
   z-index: -2;
   top: 0;
   right: 0;
