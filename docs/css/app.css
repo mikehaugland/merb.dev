@@ -27,6 +27,7 @@ body {
 .name {
   text-align: center;
   font-size: 16vw;
+  font-style: italic;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   line-height: 1;
   text-transform: uppercase;
@@ -58,6 +59,8 @@ body {
   position: absolute;
   content: '';
   box-sizing: border-box;
+  transform: skewX(-10deg);
+  border-radius: 1.6vw;
 }
 
 .name::after{
@@ -70,4 +73,6 @@ body {
   left: 2.6vw;
   right: 2.6vw;
   bottom: 2.6vw;
+  transform: skewX(-10deg);
+  border-radius: 1.6vw;
 }
