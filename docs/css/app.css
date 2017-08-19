@@ -8,6 +8,7 @@ body {
   color: #fff;
   height: 100%;
   padding: 0px; margin: 0px;
+  font-family: 'Open Sans';
 }
 
 .wrapper {
@@ -28,7 +29,7 @@ body {
   text-align: center;
   font-size: 16vw;
   font-style: italic;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: 'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   line-height: 1;
   text-transform: uppercase;
   padding: 5.6vw;
@@ -39,8 +40,7 @@ body {
   background-size: 1400%;
   /*background-image: linear-gradient(230deg,#0cebeb,#20e3b2,#29ffc6);*/
   background-image: linear-gradient(230deg, #ff4e50, #e8b71d, #f9d423, #add100, #00d3ff, #7474bf, #d53369,#ff5858);
-  animation: animatedBG 60s linear infinite;
-
+  animation: animatedBG 120s linear infinite;
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,7 +49,7 @@ body {
 .name::before {
   background-repeat: no-repeat;
   background-size: 1400%;
-  animation: animatedBG 60s linear infinite;
+  animation: animatedBG 120s linear infinite;
   z-index: -2;
   top: 0;
   right: 0;
@@ -59,7 +59,7 @@ body {
   position: absolute;
   content: '';
   box-sizing: border-box;
-  transform: skewX(-10deg);
+  transform: skewX(-11deg);
   border-radius: 1.6vw;
 }
 
@@ -73,6 +73,6 @@ body {
   left: 2.6vw;
   right: 2.6vw;
   bottom: 2.6vw;
-  transform: skewX(-10deg);
+  transform: skewX(-11deg);
   border-radius: 1.6vw;
 }
