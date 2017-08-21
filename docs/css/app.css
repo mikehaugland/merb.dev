@@ -5,6 +5,7 @@ html {
 
 body {
   background-color: #181e24;
+  background-image: linear-gradient(230deg, #2e3134, #181e24);
   color: #fff;
   height: 100%;
   padding: 0px; margin: 0px;
@@ -38,7 +39,6 @@ body {
 
   background-repeat: no-repeat;
   background-size: 1400%;
-  /*background-image: linear-gradient(230deg,#0cebeb,#20e3b2,#29ffc6);*/
   background-image: linear-gradient(230deg, #ff4e50, #e8b71d, #f9d423, #add100, #00d3ff, #7474bf, #d53369,#ff5858);
   animation: animatedBG 120s linear infinite;
 
@@ -67,6 +67,7 @@ body {
   position: absolute;
   z-index: -1;
   background-color: #181e24;
+  background-image: linear-gradient(230deg, #2e3134, #181e24);
   content: '';
   box-sizing: border-box;
   top: 2.6vw;
