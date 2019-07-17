@@ -9,22 +9,31 @@
         margin: 0;
         padding: 0;
         height: 100%;
+        background-color: #000;
+        color: #FFF;
+      }
+      
+      .player-wrapper {
+        width: 100%;
+        padding-bottom: 56.25%
       }
       
       .player {
         width: 100%;
-        padding-bottom: 56.25%
+        height: 100%;
       }
     </style>
   </head>
   
   <body>
-    <iframe
-      class="player"
-      src="https://player.twitch.tv/?merbzing"
-      frameborder="false"
-      scrolling="false"
-      allowfullscreen="true">
-    </iframe>
+    <div class="player-wrapper">
+      <iframe
+        class="player"
+        src="https://player.twitch.tv/?merbzing"
+        frameborder="false"
+        scrolling="false"
+        allowfullscreen="true">
+      </iframe>
+    </div>
   </body>
 </html
